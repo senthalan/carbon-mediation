@@ -2416,6 +2416,16 @@
                 <artifactId>commons-text</artifactId>
                 <version>${wso2.commons.text.orbit.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.wso2.orbit.javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>${version.org.wso2.orbit.javax.activation}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.orbit.commons-text</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${wso2.commons.text.orbit.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <properties>
@@ -2605,6 +2615,8 @@
         <maven.scr.plugin.version>1.26.0</maven.scr.plugin.version>
         <activemq.broker.version>5.15.2</activemq.broker.version>
         <version.org.wso2.orbit.javax.activation>1.1.1.wso2v1</version.org.wso2.orbit.javax.activation>
+        <version.org.wso2.orbit.javax.activation>1.1.1.wso2v1</version.org.wso2.orbit.javax.activation>
+        <wso2.commons.text.orbit.version>1.6.wso2v1</wso2.commons.text.orbit.version>
     </properties>
     <pluginRepositories>
         <pluginRepository>
